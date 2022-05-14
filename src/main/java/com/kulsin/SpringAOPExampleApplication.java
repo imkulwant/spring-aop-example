@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Import;
 @SpringBootApplication
 @Import(LoggingAspect.class)
 @EnableAspectJAutoProxy
-public class AspectOrientedProgrammingApplication {
+public class SpringAOPExampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AspectOrientedProgrammingApplication.class, args);
+		SpringApplication.run(SpringAOPExampleApplication.class, args);
 	}
 
 }
